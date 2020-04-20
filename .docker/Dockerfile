@@ -64,7 +64,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   tesseract-ocr-fra \
   tesseract-ocr-por \
   tesseract-ocr-spa \
-  unpaper
+  unpaper \
+  && apt-get clean
 
 WORKDIR /app
 
