@@ -14,7 +14,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   python3-distutils \
   ca-certificates \
   curl \
-  git
+  git \
+  && apt-get clean
 
 # Get the latest pip (Ubuntu version doesn't support manylinux2010)
 RUN \
