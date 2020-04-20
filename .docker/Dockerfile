@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   libleptonica-dev \
   zlib1g-dev \
   python3 \
+  python3-dev \
   python3-distutils \
   ca-certificates \
   curl \
